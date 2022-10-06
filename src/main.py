@@ -1,13 +1,17 @@
 import pyaudio
 import json
 import numpy as np
+import math
 
 rate = 44100
 
 def tone(freq, length, gain):
     slen = int(length * rate)
     t = float(freq) * np.pi * 2.0 / rate
-    return np.sin(np.arange(slen) * t) * gain
+    gain_lst = []
+    for i in range(slen):
+        gain_lst.append(gain * (1.0 - math.exp(-10.0 * (slen - i - 1) / slen)))
+    return np.sin(np.arange(slen) * t) * np.array(gain_lst)
 
 def tone_rich(freq, length, gain):
     return tone(freq, length, gain * 0.7) + tone(freq * 2, length, gain * 0.2) + tone(freq * 4, length, gain * 0.1)
