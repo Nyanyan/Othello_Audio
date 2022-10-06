@@ -33,7 +33,7 @@ with open(directory + '/time.txt') as f:
     times = [float(elem) for elem in f.read().splitlines()]
     times.append(times[-1])
 
-fixed_time = 10.0
+fixed_time = 20.0
 sum_time = sum(times)
 mul = fixed_time / sum_time
 
