@@ -1,0 +1,557 @@
+﻿{
+  "10": {
+    "board_opponent": 8899709632512,
+    "board_player": 137908977664,
+    "level": 23,
+    "next_policy": 45,
+    "player": 0,
+    "policy": 29,
+    "value": 0
+  },
+  "11": {
+    "board_opponent": 35391000543232,
+    "board_player": 8830990155776,
+    "level": 23,
+    "next_policy": 21,
+    "player": 1,
+    "policy": 45,
+    "value": 0
+  },
+  "12": {
+    "board_opponent": 8831260688384,
+    "board_player": 35390732107776,
+    "level": 23,
+    "next_policy": 44,
+    "player": 0,
+    "policy": 21,
+    "value": 0
+  },
+  "13": {
+    "board_opponent": 53017277890560,
+    "board_player": 8796900950016,
+    "level": 23,
+    "next_policy": 52,
+    "player": 1,
+    "policy": 44,
+    "value": 0
+  },
+  "14": {
+    "board_opponent": 4530057433841664,
+    "board_player": 35356372369408,
+    "level": 23,
+    "next_policy": 51,
+    "player": 0,
+    "policy": 52,
+    "value": 0
+  },
+  "15": {
+    "board_opponent": 2313544465121280,
+    "board_player": 4503669154775040,
+    "level": 23,
+    "next_policy": 46,
+    "player": 1,
+    "policy": 51,
+    "value": 0
+  },
+  "16": {
+    "board_opponent": 4574175337906176,
+    "board_player": 2313407026167808,
+    "level": 23,
+    "next_policy": 38,
+    "player": 0,
+    "policy": 46,
+    "value": 0
+  },
+  "17": {
+    "board_opponent": 2313888062504960,
+    "board_player": 4573969179475968,
+    "level": 23,
+    "next_policy": 53,
+    "player": 1,
+    "policy": 38,
+    "value": -2
+  },
+  "18": {
+    "board_opponent": 13616490245259264,
+    "board_player": 2278566251462656,
+    "level": 23,
+    "next_policy": 12,
+    "player": 0,
+    "policy": 53,
+    "value": -1
+  },
+  "19": {
+    "board_opponent": 2278566251991040,
+    "board_player": 13616490244734976,
+    "level": 23,
+    "next_policy": 10,
+    "player": 1,
+    "policy": 12,
+    "value": -1
+  },
+  "20": {
+    "board_opponent": 13616490245260288,
+    "board_player": 2278566251466752,
+    "level": 23,
+    "next_policy": 11,
+    "player": 0,
+    "policy": 10,
+    "value": 7
+  },
+  "21": {
+    "board_opponent": 2278566251993088,
+    "board_player": 13616490244736000,
+    "level": 23,
+    "next_policy": 3,
+    "player": 1,
+    "policy": 11,
+    "value": 8
+  },
+  "22": {
+    "board_opponent": 13616490244740104,
+    "board_player": 2278566251988992,
+    "level": 23,
+    "next_policy": 60,
+    "player": 0,
+    "policy": 3,
+    "value": 12
+  },
+  "23": {
+    "board_opponent": 1159703670486206464,
+    "board_player": 9112890617369608,
+    "level": 23,
+    "next_policy": 58,
+    "player": 1,
+    "policy": 60,
+    "value": 10
+  },
+  "24": {
+    "board_opponent": 299612658768811016,
+    "board_player": 1157434278486476800,
+    "level": 23,
+    "next_policy": 47,
+    "player": 0,
+    "policy": 58,
+    "value": 10
+  },
+  "25": {
+    "board_opponent": 1157698161277143040,
+    "board_player": 299489513466500104,
+    "level": 23,
+    "next_policy": 25,
+    "player": 1,
+    "policy": 47,
+    "value": 6
+  },
+  "26": {
+    "board_opponent": 299489513701381128,
+    "board_player": 1157698161075816448,
+    "level": 23,
+    "next_policy": 34,
+    "player": 0,
+    "policy": 25,
+    "value": 9
+  },
+  "27": {
+    "board_opponent": 1157698178322794496,
+    "board_player": 299489513634272264,
+    "level": 23,
+    "next_policy": 4,
+    "player": 1,
+    "policy": 34,
+    "value": 7
+  },
+  "28": {
+    "board_opponent": 299489513634536472,
+    "board_player": 1157698178322530304,
+    "level": 23,
+    "next_policy": 17,
+    "player": 0,
+    "policy": 4,
+    "value": 15
+  },
+  "29": {
+    "board_opponent": 1157698178322923520,
+    "board_player": 299489513634274328,
+    "level": 23,
+    "next_policy": 24,
+    "player": 1,
+    "policy": 17,
+    "value": 9
+  },
+  "30": {
+    "board_opponent": 299489513651182616,
+    "board_player": 1157698178322792448,
+    "level": 23,
+    "next_policy": 32,
+    "player": 0,
+    "policy": 24,
+    "value": 15
+  },
+  "31": {
+    "board_opponent": 1157698182651314176,
+    "board_player": 299489513617628184,
+    "level": 23,
+    "next_policy": 50,
+    "player": 1,
+    "policy": 32,
+    "value": 10
+  },
+  "32": {
+    "board_opponent": 300624278336969752,
+    "board_player": 1157689317838815232,
+    "level": 23,
+    "next_policy": 61,
+    "player": 0,
+    "policy": 50,
+    "value": 10
+  },
+  "33": {
+    "board_opponent": 3472539526307250176,
+    "board_player": 291617079082228760,
+    "level": 23,
+    "next_policy": 40,
+    "player": 1,
+    "policy": 61,
+    "value": 4
+  },
+  "34": {
+    "board_opponent": 291618182888823832,
+    "board_player": 3472539522012282880,
+    "level": 23,
+    "next_policy": 20,
+    "player": 0,
+    "policy": 40,
+    "value": 8
+  },
+  "35": {
+    "board_opponent": 3472539591672332288,
+    "board_player": 291618113229823000,
+    "level": 23,
+    "next_policy": 16,
+    "player": 1,
+    "policy": 20,
+    "value": 8
+  },
+  "36": {
+    "board_opponent": 291618130443312152,
+    "board_player": 3472539574458908672,
+    "level": 23,
+    "next_policy": 33,
+    "player": 0,
+    "policy": 16,
+    "value": 8
+  },
+  "37": {
+    "board_opponent": 3472539600228712448,
+    "board_player": 291618113263442968,
+    "level": 23,
+    "next_policy": 39,
+    "player": 1,
+    "policy": 33,
+    "value": 4
+  },
+  "38": {
+    "board_opponent": 291618937897163800,
+    "board_player": 3472539325350805504,
+    "level": 23,
+    "next_policy": 59,
+    "player": 0,
+    "policy": 39,
+    "value": 16
+  },
+  "39": {
+    "board_opponent": 4051260673560936448,
+    "board_player": 289358341990456344,
+    "level": 23,
+    "next_policy": 41,
+    "player": 1,
+    "policy": 59,
+    "value": 12
+  },
+  "4": {
+    "board_opponent": 68853694464,
+    "board_player": 34628173824,
+    "level": 23,
+    "next_policy": 37,
+    "player": 0,
+    "policy": -1,
+    "value": 0
+  },
+  "40": {
+    "board_opponent": 289360549603646488,
+    "board_player": 4051260664971001856,
+    "level": 23,
+    "next_policy": 31,
+    "player": 0,
+    "policy": 41,
+    "value": 14
+  },
+  "41": {
+    "board_opponent": 4051261491752206336,
+    "board_player": 289359724969925656,
+    "level": 23,
+    "next_policy": 30,
+    "player": 1,
+    "policy": 31,
+    "value": 14
+  },
+  "42": {
+    "board_opponent": 289359727050300440,
+    "board_player": 4051261490745573376,
+    "level": 23,
+    "next_policy": 13,
+    "player": 0,
+    "policy": 30,
+    "value": 14
+  },
+  "43": {
+    "board_opponent": 4051261628723503104,
+    "board_player": 289359589072378904,
+    "level": 23,
+    "next_policy": 42,
+    "player": 1,
+    "policy": 13,
+    "value": 14
+  },
+  "44": {
+    "board_opponent": 289364038658497560,
+    "board_player": 4051261577183895552,
+    "level": 23,
+    "next_policy": 57,
+    "player": 0,
+    "policy": 42,
+    "value": 14
+  },
+  "45": {
+    "board_opponent": 4484733041318305792,
+    "board_player": 7762599943192,
+    "level": 23,
+    "next_policy": 54,
+    "player": 1,
+    "policy": 57,
+    "value": 10
+  },
+  "46": {
+    "board_opponent": 18128057823075352,
+    "board_player": 4484627144604655616,
+    "level": 23,
+    "next_policy": 5,
+    "player": 0,
+    "policy": 54,
+    "value": 22
+  },
+  "47": {
+    "board_opponent": 4484627144604659744,
+    "board_player": 18128057823071256,
+    "level": 23,
+    "next_policy": 6,
+    "player": 1,
+    "policy": 5,
+    "value": 18
+  },
+  "48": {
+    "board_opponent": 18128057824128120,
+    "board_player": 4484627144603602944,
+    "level": 23,
+    "next_policy": 63,
+    "player": 0,
+    "policy": 6,
+    "value": 24
+  },
+  "49": {
+    "board_opponent": 13726048833193644032,
+    "board_player": 78406088862840,
+    "level": 23,
+    "next_policy": 22,
+    "player": 1,
+    "policy": 63,
+    "value": 20
+  },
+  "5": {
+    "board_opponent": 240786604032,
+    "board_player": 134217728,
+    "level": 23,
+    "next_policy": 43,
+    "player": 1,
+    "policy": 37,
+    "value": 0
+  },
+  "50": {
+    "board_opponent": 78406095154296,
+    "board_player": 13726048833191546880,
+    "level": 23,
+    "next_policy": 1,
+    "player": 0,
+    "policy": 22,
+    "value": 22
+  },
+  "51": {
+    "board_opponent": 13726048833191547906,
+    "board_player": 78406095153272,
+    "level": 23,
+    "next_policy": 62,
+    "player": 1,
+    "policy": 1,
+    "value": 22
+  },
+  "52": {
+    "board_opponent": 4638803614472808568,
+    "board_player": 13699009643241280514,
+    "level": 23,
+    "next_policy": 55,
+    "player": 0,
+    "policy": 62,
+    "value": 22
+  },
+  "53": {
+    "board_opponent": 13762130406768645122,
+    "board_player": 4611711647964407928,
+    "level": 23,
+    "next_policy": 56,
+    "player": 1,
+    "policy": 55,
+    "value": 22
+  },
+  "54": {
+    "board_opponent": 9151340072353867896,
+    "board_player": 9294559576417113090,
+    "level": 23,
+    "next_policy": 2,
+    "player": 0,
+    "policy": 56,
+    "value": 22
+  },
+  "55": {
+    "board_opponent": 9294559576418163718,
+    "board_player": 9151340072352817272,
+    "level": 23,
+    "next_policy": 0,
+    "player": 1,
+    "policy": 2,
+    "value": 16
+  },
+  "56": {
+    "board_opponent": 9151340072352817279,
+    "board_player": 9294559576418163712,
+    "level": 23,
+    "next_policy": 8,
+    "player": 0,
+    "policy": 0,
+    "value": 16
+  },
+  "57": {
+    "board_opponent": 9294577203031186688,
+    "board_player": 9151322445739794559,
+    "level": 23,
+    "next_policy": 9,
+    "player": 1,
+    "policy": 8,
+    "value": 16
+  },
+  "58": {
+    "board_opponent": 9151322445739933311,
+    "board_player": 9294577203031048448,
+    "level": 23,
+    "next_policy": 15,
+    "player": 0,
+    "policy": 9,
+    "value": 16
+  },
+  "59": {
+    "board_opponent": 9294577203035275520,
+    "board_player": 9151322445735739007,
+    "level": 23,
+    "next_policy": 23,
+    "player": 1,
+    "policy": 15,
+    "value": 16
+  },
+  "6": {
+    "board_opponent": 8830586978304,
+    "board_player": 206426865664,
+    "level": 23,
+    "next_policy": 18,
+    "player": 0,
+    "policy": 43,
+    "value": 0
+  },
+  "60": {
+    "board_opponent": 9151322445748321919,
+    "board_player": 9294577203031081216,
+    "level": 23,
+    "next_policy": 49,
+    "player": 0,
+    "policy": 23,
+    "value": 24
+  },
+  "61": {
+    "board_opponent": 9295144551031013632,
+    "board_player": 9151318047701810815,
+    "level": 23,
+    "next_policy": 7,
+    "player": 1,
+    "policy": 49,
+    "value": 24
+  },
+  "62": {
+    "board_opponent": 9151318047701843711,
+    "board_player": 9295144551030980864,
+    "level": 23,
+    "next_policy": 48,
+    "player": 0,
+    "policy": 7,
+    "value": 24
+  },
+  "63": {
+    "board_opponent": 9151314727675281151,
+    "board_player": 9295429346034254080,
+    "level": 23,
+    "next_policy": 14,
+    "player": 0,
+    "policy": 48,
+    "value": 24
+  },
+  "64": {
+    "board_opponent": 9295429622260662016,
+    "board_player": 9151314451448889599,
+    "level": 23,
+    "next_policy": -1,
+    "player": 1,
+    "policy": 14,
+    "value": 24
+  },
+  "7": {
+    "board_opponent": 206561345536,
+    "board_player": 8830452760576,
+    "level": 23,
+    "next_policy": 19,
+    "player": 1,
+    "policy": 18,
+    "value": 0
+  },
+  "8": {
+    "board_opponent": 8830587502592,
+    "board_player": 206427127808,
+    "level": 23,
+    "next_policy": 26,
+    "player": 0,
+    "policy": 19,
+    "value": 0
+  },
+  "9": {
+    "board_opponent": 206628454400,
+    "board_player": 8830453284864,
+    "level": 23,
+    "next_policy": 29,
+    "player": 1,
+    "policy": 26,
+    "value": 0
+  },
+  "black_discs": 44,
+  "black_player": "-",
+  "date": "2022_10_06_14_01_34",
+  "memo": "-",
+  "white_discs": 20,
+  "white_player": "山名琢翔"
+}
