@@ -19,7 +19,7 @@ def frequency(value):
     base_freq = 440.00
     return base_freq * 2.0 ** (value // 2 / 12)
 
-with open('2022_10_06_14_05_10.json', encoding='utf-8-sig') as f:
+with open('HUMAN_HUMAN.json', encoding='utf-8-sig') as f:
     raw_data = json.load(f)
 
 data = []
