@@ -29,6 +29,9 @@ for i in range(8):
 freqs.append(base_freqs[0] * (2 ** 8))
 
 
+freq_offset = -10
+
+
 def tone(freq, length, gain):
     slen = int(length * rate)
     t = float(freq) * np.pi * 2.0 / rate
@@ -44,7 +47,7 @@ def play_wave(stream, samples):
     stream.write(samples.astype(np.int16).tobytes())
 
 def frequency(value):
-    return freqs[(value + 64) // 4 - 10]
+    return freqs[(value + 64) // 4 + freq_offset]
     #base_freq = 440.00
     #return base_freq * 2.0 ** (value // 2 / 12)
 
@@ -55,7 +58,7 @@ with open(directory + '/time.txt') as f:
     times = [float(elem) for elem in f.read().splitlines()]
     times.append(-1)
 
-fixed_time = 20.0
+fixed_time = 15.0
 sum_time = sum(times)
 mul = fixed_time / sum_time
 
@@ -69,6 +72,11 @@ for move in range(4, 65):
             data.append([value, 1.0])
     except:
         continue
+
+while frequency(data[-1][0]) / base_freqs[0] - round(frequency(data[-1][0]) / base_freqs[0]) > 0.1:
+    freq_offset -= 1
+freq_offset += 1
+print(freq_offset, frequency(data[-1][0]))
 
 audio_data = []
 for d, t in data:
