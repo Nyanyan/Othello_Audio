@@ -75,7 +75,7 @@ for move in range(4, 65):
 
 while frequency(data[-1][0]) / base_freqs[0] - round(frequency(data[-1][0]) / base_freqs[0]) > 0.1:
     freq_offset -= 1
-freq_offset += 1
+#freq_offset += 1
 print(freq_offset, frequency(data[-1][0]))
 
 audio_data = []
