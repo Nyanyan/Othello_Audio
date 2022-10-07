@@ -11,6 +11,14 @@ directory = sys.argv[1]
 rate = 44100
 frame_rate = 30.0
 
+freqs = []
+base_freqs = [130.813, 155.563, 164.814, 174.614, 184.997, 195.998, 233.082, 246.942]
+
+for i in range(8):
+    for j in range(len(base_freqs)):
+        freqs.append(base_freqs[j] * (2 ** i))
+freqs.append(base_freqs[0] * (2 ** 8))
+
 def tone(freq, length, gain):
     slen = int(length * rate)
     t = float(freq) * np.pi * 2.0 / rate
@@ -26,8 +34,9 @@ def play_wave(stream, samples):
     stream.write(samples.astype(np.int16).tobytes())
 
 def frequency(value):
-    base_freq = 440.00
-    return base_freq * 2.0 ** (value // 2 / 12)
+    return freqs[(value + 64) // 4]
+    #base_freq = 440.00
+    #return base_freq * 2.0 ** (value // 2 / 12)
 
 with open(directory + '/game.json', encoding='utf-8-sig') as f:
     raw_data = json.load(f)
