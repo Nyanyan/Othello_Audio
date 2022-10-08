@@ -29,7 +29,7 @@ for i in range(8):
 freqs.append(base_freqs[0] * (2 ** 8))
 
 
-freq_offset = -10
+freq_offset = -5
 
 
 def tone(freq, length, gain):
@@ -37,7 +37,7 @@ def tone(freq, length, gain):
     t = float(freq) * np.pi * 2.0 / rate
     gain_lst = []
     for i in range(slen):
-        gain_lst.append(gain * (1.0 - math.exp(-10.0 * (slen - i - 1) / slen)))
+        gain_lst.append(gain * (2.0 - pow(2.0, (i + 1) / slen)))
     return np.sin(np.arange(slen) * t) * np.array(gain_lst)
 
 def tone_rich(freq, length, gain):
@@ -56,7 +56,10 @@ with open(directory + '/game.json', encoding='utf-8-sig') as f:
 
 with open(directory + '/time.txt') as f:
     times = [float(elem) for elem in f.read().splitlines()]
-    times.append(-1)
+first_sum_time = sum(times)
+for i in range(len(times)):
+    times[i] = max(times[i], first_sum_time / 180)
+times.append(-1)
 
 fixed_time = 15.0
 sum_time = sum(times)
@@ -73,9 +76,12 @@ for move in range(4, 65):
     except:
         continue
 
-while frequency(data[-1][0]) / base_freqs[0] - round(frequency(data[-1][0]) / base_freqs[0]) > 0.1:
+while True:
+    freq_div = math.log2(frequency(data[-1][0]) / base_freqs[0])
+    print(freq_offset, freq_div, frequency(data[-1][0]),  base_freqs[0])
+    if abs(freq_div - round(freq_div)) < 0.001:
+        break
     freq_offset -= 1
-#freq_offset += 1
 print(freq_offset, frequency(data[-1][0]))
 
 audio_data = []

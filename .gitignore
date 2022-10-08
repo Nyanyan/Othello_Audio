@@ -1,2 +1,5 @@
 *.exe
 src/resources
+*.jpg
+*.wav
+*.mp4
