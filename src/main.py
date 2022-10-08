@@ -29,7 +29,7 @@ for i in range(8):
 freqs.append(base_freqs[0] * (2 ** 8))
 
 
-freq_offset = -5
+freq_offset = -20
 
 
 def tone(freq, length, gain):
@@ -47,7 +47,7 @@ def play_wave(stream, samples):
     stream.write(samples.astype(np.int16).tobytes())
 
 def frequency(value):
-    return freqs[(value + 64) // 4 + freq_offset]
+    return freqs[(value + 64) // 2 + freq_offset]
     #base_freq = 440.00
     #return base_freq * 2.0 ** (value // 2 / 12)
 
