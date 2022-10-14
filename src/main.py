@@ -41,7 +41,7 @@ def tone(freq, length, gain):
     return np.sin(np.arange(slen) * t) * np.array(gain_lst)
 
 def tone_rich(freq, length, gain):
-    return (tone(freq, length, gain * 0.7) + tone(freq * 2, length, gain * 0.2) + tone(freq * 4, length, gain * 0.1)) * 32768.0
+    return (tone(freq, length, gain * 0.4) + tone(freq * 1.5, length, gain * 0.05) + tone(freq * 2, length, gain * 0.4)  + tone(freq * 2.5, length, gain * 0.1)+ tone(freq * 3, length, gain * 0.05)) * 32768.0
 
 def play_wave(stream, samples):
     stream.write(samples.astype(np.int16).tobytes())
